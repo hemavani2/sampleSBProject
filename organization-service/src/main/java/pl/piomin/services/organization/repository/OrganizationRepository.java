@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
+
 import pl.piomin.services.organization.model.Organization;
 
-public class OrganizationRepository {
+public class OrganizationRepository  {
 
 	private List<Organization> organizations = new ArrayList<>();
 	
